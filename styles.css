@@ -2,7 +2,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 #smallHead {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 590;
   }
 
@@ -10,7 +10,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   font-family: Genome;
   color: #C5B358;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
 }
 
@@ -18,7 +18,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   font-family: Genome;
   font-stretch: expanded;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   position: relative;
   top: -100px;
@@ -40,15 +40,17 @@ h2 {
   text-align: center;
   color: #C5B358;
   font-family: Genome;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 590;
   position: relative; 
-  top: -90px;
+  top: -120px;
 }
 
 p {
   text-align: center;
   font-family: Genome;
+  font-size: 16px;
+  font-weight: 590;
 }
 
 a:link, a:visited {
