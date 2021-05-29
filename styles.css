@@ -37,11 +37,11 @@ h1 {
 h2 {
   text-align: center;
   color: #C5B358;
-  font-family: Genome;
-  font-size: 70px;
-  font-weight: 600;
+  font-family: Scriptina;
+  font-size: 80px;
+  font-weight: 590;
   position: relative; 
-  top: -120px;
+  top: -190px;
 }
 
 p {
@@ -49,6 +49,8 @@ p {
   font-family: Genome;
   font-size: 16px;
   font-weight: 590;
+  position: relative; 
+  top: -100px;
 }
 
 a:link, a:visited {
@@ -64,3 +66,4 @@ div {
   text-align:center;
   width:100%;
 }
+

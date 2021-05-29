@@ -14,13 +14,27 @@
       <a href="music.html">PICK A SONG</a>
     </p>
   </body>
-  <form action="/action_page.php">
-    <label for="fname">Name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="fname">Artist:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="lname">Song:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <input type="submit" value="Submit">
-  </form>
+  <div class="container">
+	<form>
+		<div class="field" tabindex="1">
+			<label for="username">
+				<i class="far fa-user"></i>Your Name
+			</label>
+			<input name="username" type="text" placeholder="e.g. john doe" required>
+		</div>
+		<div class="field" tabindex="2">
+			<label for="email">
+				<i class="far fa-envelope"></i>Your Email
+			</label>
+			<input name="email" type="text" placeholder="email@domain.com" required>
+		</div>
+		<div class="field" tabindex="3">
+			<label for="message">
+				<i class="far fa-edit"></i>Your Message
+			</label>
+			<textarea name="message" placeholder="type here" required></textarea>
+		</div>
+		<button type="reset">Send Me Message</button>
+	</form>
+</div>
 </html>
