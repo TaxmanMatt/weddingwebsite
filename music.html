@@ -7,34 +7,39 @@
   </head>
   <body>
     <h1>The Walker Wedding</h1>
+    <img src="/gallery/sunflower.jpg"
+    width="603" 
+    height="182"
+    style=position:relative;top:-120px;left:660px;
+    class="center";
+    >
     <p id=navigation>
       <a href="home.html">HOME</a>
       <a href="rsvp.html">RSVP</a>
       <a href="venue.html">VENUE</a>
       <a href="music.html">PICK A SONG</a>
+	  <a href="registry.html">GIFT REGISTRY</a>
     </p>
   </body>
   <div class="container">
+	<p>
+		Suggest a song for our playlist.
+	</p>
 	<form>
 		<div class="field" tabindex="1">
 			<label for="username">
-				<i class="far fa-user"></i>Your Name
+				<i class="far fa-user"></i>Artist
 			</label>
 			<input name="username" type="text" placeholder="e.g. john doe" required>
 		</div>
 		<div class="field" tabindex="2">
 			<label for="email">
-				<i class="far fa-envelope"></i>Your Email
+				<i class="far fa-envelope"></i>Song
 			</label>
 			<input name="email" type="text" placeholder="email@domain.com" required>
 		</div>
-		<div class="field" tabindex="3">
-			<label for="message">
-				<i class="far fa-edit"></i>Your Message
-			</label>
-			<textarea name="message" placeholder="type here" required></textarea>
-		</div>
-		<button type="reset">Send Me Message</button>
+		<br>
+		<button type="reset">Submit</button>
 	</form>
 </div>
 </html>
