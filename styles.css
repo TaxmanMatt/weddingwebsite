@@ -1,5 +1,3 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
-
 #smallHead {
   text-align: center;
   font-size: 30px;
@@ -40,8 +38,8 @@ h2 {
   text-align: center;
   color: #C5B358;
   font-family: Genome;
-  font-size: 80px;
-  font-weight: 590;
+  font-size: 70px;
+  font-weight: 600;
   position: relative; 
   top: -120px;
 }
@@ -60,4 +58,9 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+div {
+  text-align:center;
+  width:100%;
 }
