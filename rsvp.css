@@ -19,6 +19,23 @@ body {
   background: #ffffff;
 }
 
+#navigation {
+  font-family: Genome;
+  font-stretch: expanded;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .rsvp-container {
   margin: 0 auto;
   height: 700px;
