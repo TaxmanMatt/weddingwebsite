@@ -1,6 +1,6 @@
 <?php
 
-    $server_name="192.168.221.3";
+    $server_name="localhost";
     $username="matt";
     $password="Creat1ve1!";
     $database_name="test";
@@ -12,7 +12,7 @@
         die("Connection Failed:" . mysqli_connect_error());
     }
 
-    if(isset($_POST['save'])
+    if(isset($_POST['save']))
     {
         $artist = $_POST['artist'];
         $song = $_POST['song'];
