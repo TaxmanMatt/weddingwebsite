@@ -19,7 +19,7 @@
 	<p>
 		Suggest a song for our playlist.
 	</p>
-	<form>
+	<form action="song.php" method="POST">
 		<div class="field" tabindex="1">
 			<label for="artist">
 				<i class="far fa-user"></i>Artist
@@ -33,7 +33,7 @@
 			<input name="song" type="text" placeholder="" required>
 		</div>
 		<br>
-		<button type="submit">Submit</button>
+		<button type="submit" name="save" value="Submit">Submit</button>
 	</form>
 </div>
 </html>

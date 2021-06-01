@@ -20,12 +20,12 @@
         <br>
         Kindly reply by October 26th, 2021.
       </h2>
-      <form>
+      <form action="insert.php" method="post">
         <fieldset class="full-width">
-          <label>Name(s)</label><input type="text" /><input type="text" />
+          <label>Name(s)</label><input type="text" name="name1"/><input type="text" name="name2"/>
         </fieldset>
         <fieldset class="half-width">
-          <label>Total guests: </label><input type="text" />
+          <label>Total guests: </label><input type="text" name="guestAmount"/>
         </fieldset>
         <fieldset class="checkbox">
           <label class="container">Yes, we'll be there! <input type="radio"><span class="checkmark"></span></label>
@@ -34,10 +34,10 @@
           <label class="container">Sorry, we can't make it. <input type="radio"><span class="checkmark"></span></label>
         </fieldset>
         <fieldset class="full-width">
-          <label>Dietary requirements:</label><input class="diet" type="text" />
+          <label>Dietary requirements:</label><input class="diet" type="text" name="diet"/>
         </fieldset>
         <br>
-        <button type="submit">Submit</button>
+        <button type="submit" value="Insert">Submit</button>
       </form>
     </div>
   </div>
