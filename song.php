@@ -3,7 +3,7 @@
     $server_name="192.168.221.3";
     $username="matt";
     $password="Creat1ve1!";
-    $database_name="rsvp";
+    $database_name="test";
 
     $conn=mysqli_connect($server_name,$username,$password,$database_name);
 
