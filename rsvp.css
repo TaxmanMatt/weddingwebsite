@@ -87,7 +87,7 @@ h3 {
   text-align: center;
   font-family: Scriptina;
   font-weight: 520;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 fieldset {
@@ -139,14 +139,14 @@ fieldset {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  line-height: 28px;
+  line-height: 20px;
 }
 
 /* Hide the browser's default checkbox */
@@ -207,9 +207,9 @@ fieldset {
 button {
   position: absolute;
   bottom: 150px;
-  right: 140px;
+  right: 70px;
   background: transparent;
-  border: none;
+  
   padding: 5px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
