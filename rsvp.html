@@ -25,13 +25,13 @@
           <label>Name(s)</label><input type="text" name="name1"/><input type="text" name="name2"/>
         </fieldset>
         <fieldset class="half-width">
-          <label>Total guests: </label><input type="text" name="guestAmount"/>
+          <label>Total guests: </label><input type="text" name="guest"/>
         </fieldset>
         <fieldset class="checkbox">
-          <label class="container">Yes, we'll be there! <input type="radio"><span class="checkmark"></span></label>
+          <label class="container">Attending <input type="radio" name="decision" value="Attending"><span class="checkmark"></span></label>
         </fieldset>
         <fieldset class="checkbox">
-          <label class="container">Sorry, we can't make it. <input type="radio"><span class="checkmark"></span></label>
+          <label class="container">Not Attending <input type="radio" name="decision" value="Not Attending"><span class="checkmark"></span></label>
         </fieldset>
         <fieldset class="full-width">
           <label>Dietary requirements:</label><input class="diet" type="text" name="diet"/>

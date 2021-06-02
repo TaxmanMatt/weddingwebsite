@@ -14,11 +14,11 @@
 
     $name1 = $_POST['name1'];
     $name2 = $_POST['name2'];
-    $guestAmount = $_POST['guestAmount'];
+    $guestAmount = $_POST['guest'];
     $decision = $_POST['decision'];
     $diet = $_POST['diet'];
 
-    $sql = "INSERT INTO rsvp (name1,name2,guestAmount,decision,diet) VALUES ('$name1','$name2','$guestAmount','$decision','$diet')";
+    $sql = "INSERT INTO rsvp (name1,name2,guest,decision,diet) VALUES ('$name1','$name2','$guest','$decision','$diet')";
 
     if(!mysqli_query($con,$sql))
     {
@@ -29,5 +29,5 @@
         }
     
     header("refresh:2; url=rsvp.html");
-    
+
 ?>

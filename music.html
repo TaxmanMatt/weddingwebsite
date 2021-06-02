@@ -7,6 +7,11 @@
   </head>
   <body>
     <h1>The Walker Wedding</h1>
+	<img src="/gallery/sunflower.jpg"
+    width="603" 
+    height="182"
+    class="center"
+    >
     <p id=navigation>
       <a href="index.html">HOME</a>
       <a href="rsvp.html">RSVP</a>
@@ -14,26 +19,26 @@
       <a href="music.html">PICK A SONG</a>
 	  <a href="registry.html">GIFT REGISTRY</a>
     </p>
-  </body>
-  <div class="container">
 	<p>
 		Suggest a song for our playlist.
 	</p>
+  </body>
+  <div class="container">
 	<form action="song.php" method="POST">
 		<div class="field" tabindex="1">
 			<label for="artist">
-				<i class="far fa-user"></i>Artist
+				<i class="far fa-user"></i>Artist&nbsp&nbsp
 			</label>
 			<input name="artist" type="text" placeholder="" required>
 		</div>
 		<div class="field" tabindex="2">
 			<label for="song">
-				<i class="far fa-envelope"></i>Song
+				<i class="far fa-envelope"></i>Song&nbsp&nbsp
 			</label>
 			<input name="song" type="text" placeholder="" required>
 		</div>
 		<br>
-		<button type="submit" name="save" value="Submit">Submit</button>
+		<button class="button1" type="submit" name="save" value="Submit">Submit</button>
 	</form>
 </div>
 </html>
