@@ -1,6 +1,6 @@
 <?php
 
-    $con = mysqli_connect('192.168.221.3','matt','Creat1ve1!');
+    $con = mysqli_connect('localhost','matt','Creat1ve1!');
 
     if (!$con)
     {
@@ -14,7 +14,7 @@
 
     $name1 = $_POST['name1'];
     $name2 = $_POST['name2'];
-    $guestAmount = $_POST['guest'];
+    $guest = $_POST['guest'];
     $decision = $_POST['decision'];
     $diet = $_POST['diet'];
 
